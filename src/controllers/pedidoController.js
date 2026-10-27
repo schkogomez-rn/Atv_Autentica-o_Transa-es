@@ -29,7 +29,7 @@ const criarPedido = async (req, res) => {
 
         // ==============================================================
         // TESTE DO CAOS: Descomente a linha abaixo para testar o ROLLBACK
-        // throw new Error('Falha simulada no banco de dados!');
+        // throw new Error('Servidor falhou antes de registrar o recibo do pedido!');
         // ==============================================================
 
         // 6. Operação B: Registra o pedido
